@@ -57,5 +57,19 @@ Models are built for two targets: **Injury Type** and **Patient Status**
 - Decision Tree `Max_depth` options: `{4, 5, 6, 7, 8, 9}`
 - SVM `Kernel` options: `{linear, poly, rbf, sigmoid}`
 
+### Phase 4
 
+1. Apply necessary data pre-processing techniques.
+
+2. Train the following ensemble models on the training set.
+
+   - **Random Forest**
+   - **XGBoost**
+   - **AdaBoost**
+
+3. Evaluate the models on the test set using the following metrics: Accuracy, Precision, Recall, F1 Score, and Confusion Matrix
+
+4. Prepare a performance comparison table for all the models (including the previous ones).
+   
+5. Apply additional techniques to improve the models’ performance.
 
